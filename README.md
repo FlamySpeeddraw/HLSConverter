@@ -1,4 +1,3 @@
-# HLSConverter
 # HLS Video Converter
 
 This Windows Batch script uses `ffmpeg` to automatically convert `.mp4` videos from different folders into HLS playlists (`.m3u8`), ready for adaptive streaming with a `master.m3u8` file.
@@ -9,36 +8,36 @@ This Windows Batch script uses `ffmpeg` to automatically convert `.mp4` videos f
 
 The script expects the following folder layout:
 
-root/
-├── video1/
-│ ├── 480P.mp4
-│ ├── 720P.mp4
-│ └── 1080P.mp4
-├── video2/
-│ └── 720P.mp4
-├── video3/
-│ ├── 360P.mp4
-│ ├── 480P.mp4
-│ ├── 720P.mp4
-│ └── 1080P.mp4
-├── script.bat
+root/ <br />
+├── video1/ <br />
+│ ├── 480P.mp4 <br />
+│ ├── 720P.mp4 <br /> 
+│ └── 1080P.mp4 <br />
+├── video2/ <br />
+│ └── 720P.mp4 <br />
+├── video3/ <br />
+│ ├── 360P.mp4 <br />
+│ ├── 480P.mp4 <br />
+│ ├── 720P.mp4 <br />
+│ └── 1080P.mp4 <br />
+├── script.bat <br />
 
 ---
 
 ## 📦 Output Example
 
-output/
-├── video1/
-│ ├── 480P/
-│ │ ├── segment_000.ts
-│ │ └── playlist_480P.m3u8
-│ ├── 720P/
-│ │ ├── segment_000.ts
-│ │ └── playlist_720P.m3u8
-│ ├── 1080P/
-│ │ ├── segment_000.ts
-│ │ └── playlist_1080P.m3u8
-│ └── master.m3u8
+output/ <br />
+├── video1/ <br />
+│ ├── 480P/ <br />
+│ │ ├── segment_000.ts <br />
+│ │ └── playlist_480P.m3u8 <br />
+│ ├── 720P/ <br />
+│ │ ├── segment_000.ts <br />
+│ │ └── playlist_720P.m3u8 <br />
+│ ├── 1080P/ <br />
+│ │ ├── segment_000.ts <br />
+│ │ └── playlist_1080P.m3u8 <br />
+│ └── master.m3u8 <br />
 
 ---
 
@@ -52,3 +51,7 @@ output/
 ## ▶️ Run the Script
 
 Place the `.bat` script in the directory containing the videos subfolders and run it.
+
+## 📄 License
+
+This project is free to use and modify.
