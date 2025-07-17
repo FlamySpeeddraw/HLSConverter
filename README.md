@@ -2,7 +2,7 @@
 
 This Windows Batch script uses `ffmpeg` to automatically convert `.mp4` videos from different folders into HLS playlists (`.m3u8`), ready for adaptive streaming with a `master.m3u8` file.
 
----
+<br />
 
 ## 📁 Expected Structure
 
@@ -22,7 +22,7 @@ root/ <br />
 │ └── 1080P.mp4 <br />
 ├── script.bat <br />
 
----
+<br />
 
 ## 📦 Output Example
 
@@ -39,14 +39,14 @@ output/ <br />
 │ │ └── playlist_1080P.m3u8 <br />
 │ └── master.m3u8 <br />
 
----
+<br />
 
 ## ✅ Requirements
 
 - [FFmpeg](https://ffmpeg.org/download.html) must be installed and available in your system's `PATH`.
 - Windows environment using Command Prompt (CMD) or double-click execution.
 
----
+<br />
 
 ## ▶️ Run the Script
 
